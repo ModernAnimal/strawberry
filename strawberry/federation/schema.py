@@ -17,7 +17,7 @@ from typing import (
     cast,
 )
 
-from graphql import (
+from graphqlx import (
     GraphQLError,
     GraphQLField,
     GraphQLInterfaceType,
@@ -26,7 +26,7 @@ from graphql import (
     GraphQLScalarType,
     GraphQLUnionType,
 )
-from graphql.type.definition import GraphQLArgument
+from graphqlx.type.definition import GraphQLArgument
 
 from strawberry.printer import print_schema
 from strawberry.schema import Schema as BaseSchema
@@ -36,8 +36,8 @@ from strawberry.utils.inspect import get_func_args
 from .schema_directive import StrawberryFederationSchemaDirective
 
 if TYPE_CHECKING:
-    from graphql import ExecutionContext as GraphQLExecutionContext
-    from graphql import GraphQLObjectType
+    from graphqlx import ExecutionContext as GraphQLExecutionContext
+    from graphqlx import GraphQLObjectType
 
     from strawberry.custom_scalar import ScalarDefinition, ScalarWrapper
     from strawberry.enum import EnumDefinition

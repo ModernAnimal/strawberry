@@ -15,8 +15,8 @@ from typing import (
     Optional,
 )
 
-from graphql import ExecutionResult as GraphQLExecutionResult
-from graphql import GraphQLError, GraphQLSyntaxError, parse
+from graphqlx import ExecutionResult as GraphQLExecutionResult
+from graphqlx import GraphQLError, GraphQLSyntaxError, parse
 
 from strawberry.subscriptions.protocols.graphql_transport_ws.types import (
     CompleteMessage,

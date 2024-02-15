@@ -26,7 +26,7 @@ from strawberry.utils.inspect import get_specialized_type_var_map
 from strawberry.utils.typing import is_generic as is_type_generic
 
 if TYPE_CHECKING:
-    from graphql import GraphQLAbstractType, GraphQLResolveInfo
+    from graphqlx import GraphQLAbstractType, GraphQLResolveInfo
 
     from strawberry.field import StrawberryField
 

@@ -1630,7 +1630,7 @@ Contributed by [Alexander](https://github.com/devkral) via [PR #2868](https://gi
 0.189.3 - 2023-06-27
 --------------------
 
-This release removes some usage of deprecated functions from GraphQL-core.
+This release removes some usage of deprecated functions from graphqlx-core.
 
 Contributed by [Kristján Valur Jónsson](https://github.com/kristjanvalur) via [PR #2894](https://github.com/strawberry-graphql/strawberry/pull/2894/)
 
@@ -8379,9 +8379,9 @@ used by extensions and the `Schema.process_errors` function.
 The full ExecutionContext object now looks like this:
 
 ```python
-from graphql import ExecutionResult as GraphQLExecutionResult
-from graphql.error.graphql_error import GraphQLError
-from graphql.language import DocumentNode as GraphQLDocumentNode
+from graphqlx import ExecutionResult as GraphQLExecutionResult
+from graphqlx.error.graphql_error import GraphQLError
+from graphqlx.language import DocumentNode as GraphQLDocumentNode
 
 
 @dataclasses.dataclass

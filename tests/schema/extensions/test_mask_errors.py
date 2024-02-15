@@ -1,6 +1,6 @@
 from unittest.mock import Mock
 
-from graphql.error import GraphQLError
+from graphqlx.error import GraphQLError
 
 import strawberry
 from strawberry.extensions import MaskErrors

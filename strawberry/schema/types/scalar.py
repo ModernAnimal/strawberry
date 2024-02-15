@@ -3,7 +3,7 @@ import decimal
 from typing import Dict, Type
 from uuid import UUID
 
-from graphql import (
+from graphqlx import (
     GraphQLBoolean,
     GraphQLFloat,
     GraphQLID,

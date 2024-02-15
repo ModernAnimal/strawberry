@@ -10,7 +10,7 @@ from typing import (
     Union,
 )
 
-from graphql import GraphQLError
+from graphqlx import GraphQLError
 
 from strawberry import UNSET
 from strawberry.exceptions import MissingQueryError

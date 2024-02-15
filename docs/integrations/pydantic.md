@@ -426,7 +426,7 @@ conversion rules completely, while still registering the new type as a Pydantic
 conversion type so it can be referenced in other models.
 
 This is useful when you need to represent structures that are very different
-from GraphQL standards, without changing the underlying Pydantic model. An
+from graphqlx standards, without changing the underlying Pydantic model. An
 example would be a use case that uses a `dict` field to store some
 semi-structured content, which is difficult to represent in GraphQL's strict
 type system.

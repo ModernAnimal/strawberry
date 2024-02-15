@@ -5,7 +5,7 @@ faq: true
 
 # Frequently Asked Questions
 
-## How can I hide a field from GraphQL?
+## How can I hide a field from graphqlx?
 
 Strawberry provides a `Private` type that can be used to hide fields from
 GraphQL, for example, the following code:

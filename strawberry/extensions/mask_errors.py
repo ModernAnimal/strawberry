@@ -1,6 +1,6 @@
 from typing import Callable, Iterator, List
 
-from graphql.error import GraphQLError
+from graphqlx.error import GraphQLError
 
 from strawberry.extensions.base_extension import SchemaExtension
 

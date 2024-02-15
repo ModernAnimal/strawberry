@@ -10,14 +10,14 @@ This extension allows you add custom validation rules.
 
 See
 [graphql.validation.rules.custom](https://github.com/graphql-python/graphql-core/tree/main/src/graphql/validation/rules/custom)
-for some custom rules that can be added from GraphQl-core.
+for some custom rules that can be added from graphqlx-core.
 
 ## Usage example:
 
 ```python
 import strawberry
 from strawberry.extensions import AddValidationRules
-from graphql import ValidationRule
+from graphqlx import ValidationRule
 
 
 class MyCustomRule(ValidationRule): ...
@@ -49,7 +49,7 @@ List of GraphQL validation rules.
 ```python
 import strawberry
 from strawberry.extensions import AddValidationRules
-from graphql import ValidationRule
+from graphqlx import ValidationRule
 
 
 class CustomRule(ValidationRule):
@@ -73,12 +73,12 @@ assert str(result.errors[0]) == "Can't query field 'example'"
 </details>
 
 <details>
-  <summary>Adding the `NoDeprecatedCustomRule` from GraphQL-core</summary>
+  <summary>Adding the `NoDeprecatedCustomRule` from graphqlx-core</summary>
 
 ```python
 import strawberry
 from strawberry.extensions import AddValidationRules
-from graphql.validation import NoDeprecatedCustomRule
+from graphqlx.validation import NoDeprecatedCustomRule
 
 schema = strawberry.Schema(
     Query,
@@ -91,12 +91,12 @@ schema = strawberry.Schema(
 </details>
 
 <details>
-  <summary>Adding the `NoSchemaIntrospectionCustomRule` from GraphQL-core</summary>
+  <summary>Adding the `NoSchemaIntrospectionCustomRule` from graphqlx-core</summary>
 
 ```python
 import strawberry
 from strawberry.extensions import AddValidationRules
-from graphql.validation import NoSchemaIntrospectionCustomRule
+from graphqlx.validation import NoSchemaIntrospectionCustomRule
 
 schema = strawberry.Schema(
     Query,

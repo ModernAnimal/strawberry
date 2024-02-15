@@ -5,7 +5,7 @@ from typing import TYPE_CHECKING, Iterator, List, Type
 from strawberry.extensions.base_extension import SchemaExtension
 
 if TYPE_CHECKING:
-    from graphql import ASTValidationRule
+    from graphqlx import ASTValidationRule
 
 
 class AddValidationRules(SchemaExtension):
@@ -16,7 +16,7 @@ class AddValidationRules(SchemaExtension):
 
     >>> import strawberry
     >>> from strawberry.extensions import AddValidationRules
-    >>> from graphql import ValidationRule, GraphQLError
+    >>> from graphqlx import ValidationRule, GraphQLError
     >>>
     >>> class MyCustomRule(ValidationRule):
     ...     def enter_field(self, node, *args) -> None:

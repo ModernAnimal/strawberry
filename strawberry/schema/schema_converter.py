@@ -20,7 +20,7 @@ from typing import (
 )
 from typing_extensions import Protocol
 
-from graphql import (
+from graphqlx import (
     GraphQLAbstractType,
     GraphQLArgument,
     GraphQLDirective,
@@ -38,7 +38,7 @@ from graphql import (
     ValueNode,
     default_type_resolver,
 )
-from graphql.language.directive_locations import DirectiveLocation
+from graphqlx.language.directive_locations import DirectiveLocation
 
 from strawberry.annotation import StrawberryAnnotation
 from strawberry.arguments import StrawberryArgument, convert_arguments
@@ -74,7 +74,7 @@ from . import compat
 from .types.concrete_type import ConcreteType
 
 if TYPE_CHECKING:
-    from graphql import (
+    from graphqlx import (
         GraphQLInputType,
         GraphQLNullableType,
         GraphQLOutputType,

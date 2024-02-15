@@ -5,8 +5,8 @@ from abc import ABC, abstractmethod
 from contextlib import suppress
 from typing import TYPE_CHECKING, Any, AsyncGenerator, Dict, Optional, cast
 
-from graphql import ExecutionResult as GraphQLExecutionResult
-from graphql import GraphQLError
+from graphqlx import ExecutionResult as GraphQLExecutionResult
+from graphqlx import GraphQLError
 
 from strawberry.subscriptions.protocols.graphql_ws import (
     GQL_COMPLETE,

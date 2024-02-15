@@ -8,7 +8,7 @@ from typing_extensions import Protocol
 from strawberry.utils.logging import StrawberryLogger
 
 if TYPE_CHECKING:
-    from graphql import GraphQLError
+    from graphqlx import GraphQLError
 
     from strawberry.custom_scalar import ScalarDefinition
     from strawberry.directive import StrawberryDirective
