@@ -2,11 +2,11 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING, AsyncGenerator, AsyncIterator, Optional, Type, Union
 
-from graphql import (
+from graphqlx import (
     ExecutionResult as OriginalExecutionResult,
 )
-from graphql.execution import ExecutionContext as GraphQLExecutionContext
-from graphql.execution import subscribe as original_subscribe
+from graphqlx.execution import ExecutionContext as GraphQLExecutionContext
+from graphqlx.execution import subscribe as original_subscribe
 
 from strawberry.types import ExecutionResult
 from strawberry.types.execution import ExecutionContext, PreExecutionError
@@ -23,8 +23,8 @@ from .execute import (
 if TYPE_CHECKING:
     from typing_extensions import TypeAlias
 
-    from graphql.execution.middleware import MiddlewareManager
-    from graphql.type.schema import GraphQLSchema
+    from graphqlx.execution.middleware import MiddlewareManager
+    from graphqlx.type.schema import GraphQLSchema
 
     from ..extensions.runner import SchemaExtensionsRunner
 

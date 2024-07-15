@@ -19,9 +19,9 @@ from typing_extensions import TypeVar
 from .nodes import convert_selections
 
 if TYPE_CHECKING:
-    from graphql import GraphQLResolveInfo, OperationDefinitionNode
-    from graphql.language import FieldNode
-    from graphql.pyutils.path import Path
+    from graphqlx import GraphQLResolveInfo, OperationDefinitionNode
+    from graphqlx.language import FieldNode
+    from graphqlx.pyutils.path import Path
 
     from strawberry.schema import Schema
     from strawberry.types.arguments import StrawberryArgument

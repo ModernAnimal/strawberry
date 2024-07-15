@@ -6,7 +6,7 @@ from typing import TYPE_CHECKING, Any, Optional
 if TYPE_CHECKING:
     from typing import Final
 
-    from graphql.error import GraphQLError
+    from graphqlx.error import GraphQLError
 
     from strawberry.types import ExecutionContext
 

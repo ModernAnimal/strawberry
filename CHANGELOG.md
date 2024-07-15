@@ -9213,9 +9213,9 @@ used by extensions and the `Schema.process_errors` function.
 The full ExecutionContext object now looks like this:
 
 ```python
-from graphql import ExecutionResult as GraphQLExecutionResult
-from graphql.error.graphql_error import GraphQLError
-from graphql.language import DocumentNode as GraphQLDocumentNode
+from graphqlx import ExecutionResult as GraphQLExecutionResult
+from graphqlx.error.graphql_error import GraphQLError
+from graphqlx.language import DocumentNode as GraphQLDocumentNode
 
 
 @dataclasses.dataclass

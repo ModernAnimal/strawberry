@@ -12,7 +12,7 @@ from strawberry.extensions import SchemaExtension
 from strawberry.extensions.tracing.utils import should_skip_tracing
 
 if TYPE_CHECKING:
-    from graphql import GraphQLResolveInfo
+    from graphqlx import GraphQLResolveInfo
 
     from strawberry.types.execution import ExecutionContext
 

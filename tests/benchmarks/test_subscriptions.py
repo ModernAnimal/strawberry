@@ -2,7 +2,7 @@ import asyncio
 from typing import AsyncIterator
 
 import pytest
-from graphql import ExecutionResult
+from graphqlx import ExecutionResult
 from pytest_codspeed.plugin import BenchmarkFixture
 
 from .api import schema

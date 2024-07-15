@@ -24,7 +24,7 @@ from strawberry.extensions.utils import get_path_from_info
 from .utils import should_skip_tracing
 
 if TYPE_CHECKING:
-    from graphql import GraphQLResolveInfo
+    from graphqlx import GraphQLResolveInfo
     from opentelemetry.trace import Span, Tracer
 
     from strawberry.types.execution import ExecutionContext

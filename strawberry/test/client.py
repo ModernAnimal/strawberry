@@ -8,7 +8,7 @@ from typing import TYPE_CHECKING, Any, Coroutine, Dict, List, Mapping, Optional,
 from typing_extensions import Literal, TypedDict
 
 if TYPE_CHECKING:
-    from graphql import GraphQLFormattedError
+    from graphqlx import GraphQLFormattedError
 
 
 @dataclass

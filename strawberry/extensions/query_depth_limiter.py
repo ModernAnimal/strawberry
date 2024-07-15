@@ -39,8 +39,8 @@ from typing import (
     Union,
 )
 
-from graphql import GraphQLError
-from graphql.language import (
+from graphqlx import GraphQLError
+from graphqlx.language import (
     BooleanValueNode,
     DefinitionNode,
     FieldNode,
@@ -56,7 +56,7 @@ from graphql.language import (
     StringValueNode,
     ValueNode,
 )
-from graphql.validation import ValidationContext, ValidationRule
+from graphqlx.validation import ValidationContext, ValidationRule
 
 from strawberry.extensions import AddValidationRules
 from strawberry.extensions.utils import is_introspection_key

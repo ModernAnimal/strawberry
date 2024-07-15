@@ -3,7 +3,7 @@ import contextlib
 from enum import Enum
 from typing import Any, AsyncGenerator, Dict, List, Optional, Union
 
-from graphql import GraphQLError
+from graphqlx import GraphQLError
 
 import strawberry
 from strawberry.extensions import SchemaExtension

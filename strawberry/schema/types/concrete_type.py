@@ -3,7 +3,7 @@ from __future__ import annotations
 import dataclasses
 from typing import TYPE_CHECKING, Dict, Union
 
-from graphql import GraphQLField, GraphQLInputField, GraphQLType
+from graphqlx import GraphQLField, GraphQLInputField, GraphQLType
 
 if TYPE_CHECKING:
     from strawberry.types.base import StrawberryObjectDefinition

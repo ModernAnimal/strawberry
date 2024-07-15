@@ -1,6 +1,6 @@
 from typing import Type, Union
 
-from graphql import (
+from graphqlx import (
     ExecutableDefinitionNode,
     FieldNode,
     GraphQLError,

@@ -20,7 +20,7 @@ from strawberry.types.base import StrawberryType
 from strawberry.utils.str_converters import to_camel_case
 
 if TYPE_CHECKING:
-    from graphql import GraphQLScalarType
+    from graphqlx import GraphQLScalarType
 
 
 # in python 3.10+ NewType is a class

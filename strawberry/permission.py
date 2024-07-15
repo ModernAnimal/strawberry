@@ -25,7 +25,7 @@ from strawberry.types.base import StrawberryList, StrawberryOptional
 from strawberry.utils.await_maybe import await_maybe
 
 if TYPE_CHECKING:
-    from graphql import GraphQLError, GraphQLErrorExtensions
+    from graphqlx import GraphQLError, GraphQLErrorExtensions
 
     from strawberry.extensions.field_extension import (
         AsyncExtensionResolver,

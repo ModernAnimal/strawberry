@@ -1,7 +1,7 @@
 from typing import Dict, List, Optional, Tuple, Union
 
 import pytest
-from graphql import (
+from graphqlx import (
     GraphQLError,
     get_introspection_query,
     parse,

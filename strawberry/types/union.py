@@ -21,7 +21,7 @@ from typing import (
 )
 from typing_extensions import Annotated, get_origin
 
-from graphql import GraphQLNamedType, GraphQLUnionType
+from graphqlx import GraphQLNamedType, GraphQLUnionType
 
 from strawberry.annotation import StrawberryAnnotation
 from strawberry.exceptions import (
@@ -39,7 +39,7 @@ from strawberry.types.base import (
 from strawberry.types.lazy_type import LazyType
 
 if TYPE_CHECKING:
-    from graphql import (
+    from graphqlx import (
         GraphQLAbstractType,
         GraphQLResolveInfo,
         GraphQLType,

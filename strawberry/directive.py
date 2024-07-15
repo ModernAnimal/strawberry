@@ -5,7 +5,7 @@ from functools import cached_property
 from typing import TYPE_CHECKING, Any, Callable, Generic, List, Optional, TypeVar
 from typing_extensions import Annotated
 
-from graphql import DirectiveLocation
+from graphqlx import DirectiveLocation
 
 from strawberry.types.field import StrawberryField
 from strawberry.types.fields.resolver import (

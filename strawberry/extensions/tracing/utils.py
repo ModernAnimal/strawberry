@@ -6,7 +6,7 @@ from strawberry.extensions.utils import is_introspection_field
 from strawberry.resolvers import is_default_resolver
 
 if TYPE_CHECKING:
-    from graphql import GraphQLResolveInfo
+    from graphqlx import GraphQLResolveInfo
 
 
 def should_skip_tracing(resolver: Callable[..., Any], info: GraphQLResolveInfo) -> bool:

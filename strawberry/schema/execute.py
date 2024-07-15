@@ -16,10 +16,10 @@ from typing import (
     cast,
 )
 
-from graphql import ExecutionResult as GraphQLExecutionResult
-from graphql import GraphQLError, parse
-from graphql import execute as original_execute
-from graphql.validation import validate
+from graphqlx import ExecutionResult as GraphQLExecutionResult
+from graphqlx import GraphQLError, parse
+from graphqlx import execute as original_execute
+from graphqlx.validation import validate
 
 from strawberry.exceptions import MissingQueryError
 from strawberry.schema.validation_rules.one_of import OneOfInputValidationRule
@@ -32,11 +32,11 @@ from .exceptions import InvalidOperationTypeError
 if TYPE_CHECKING:
     from typing_extensions import NotRequired, TypeAlias, Unpack
 
-    from graphql import ExecutionContext as GraphQLExecutionContext
-    from graphql import GraphQLSchema
-    from graphql.execution.middleware import MiddlewareManager
-    from graphql.language import DocumentNode
-    from graphql.validation import ASTValidationRule
+    from graphqlx import ExecutionContext as GraphQLExecutionContext
+    from graphqlx import GraphQLSchema
+    from graphqlx.execution.middleware import MiddlewareManager
+    from graphqlx.language import DocumentNode
+    from graphqlx.validation import ASTValidationRule
 
     from strawberry.extensions.runner import SchemaExtensionsRunner
     from strawberry.types import ExecutionContext

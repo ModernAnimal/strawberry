@@ -6,7 +6,7 @@ from typing import TYPE_CHECKING, Any, Dict, List, Optional, TypedDict
 from strawberry.types.unset import UNSET
 
 if TYPE_CHECKING:
-    from graphql import GraphQLFormattedError
+    from graphqlx import GraphQLFormattedError
 
 
 @dataclass

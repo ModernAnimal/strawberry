@@ -27,7 +27,7 @@ from strawberry.utils.typing import is_generic as is_type_generic
 if TYPE_CHECKING:
     from typing_extensions import TypeGuard
 
-    from graphql import GraphQLAbstractType, GraphQLResolveInfo
+    from graphqlx import GraphQLAbstractType, GraphQLResolveInfo
 
     from strawberry.types.field import StrawberryField
 

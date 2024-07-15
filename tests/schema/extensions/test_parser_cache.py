@@ -1,7 +1,7 @@
 from unittest.mock import patch
 
 import pytest
-from graphql import SourceLocation, parse
+from graphqlx import SourceLocation, parse
 
 import strawberry
 from strawberry.extensions import MaxTokensLimiter, ParserCache

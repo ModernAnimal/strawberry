@@ -4,7 +4,7 @@ import re
 from math import isfinite
 from typing import TYPE_CHECKING, Any, Mapping, Optional, cast
 
-from graphql.language import (
+from graphqlx.language import (
     BooleanValueNode,
     EnumValueNode,
     FloatValueNode,
@@ -16,8 +16,8 @@ from graphql.language import (
     ObjectValueNode,
     StringValueNode,
 )
-from graphql.pyutils import Undefined, inspect, is_iterable
-from graphql.type import (
+from graphqlx.pyutils import Undefined, inspect, is_iterable
+from graphqlx.type import (
     GraphQLID,
     is_enum_type,
     is_input_object_type,
@@ -30,8 +30,8 @@ import strawberry
 from strawberry.types.base import has_object_definition
 
 if TYPE_CHECKING:
-    from graphql.language import ValueNode
-    from graphql.type import (
+    from graphqlx.language import ValueNode
+    from graphqlx.type import (
         GraphQLInputObjectType,
         GraphQLInputType,
         GraphQLList,

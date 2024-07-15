@@ -8,7 +8,7 @@ from typing_extensions import Protocol, TypeAlias
 
 import libcst as cst
 from graphlib import TopologicalSorter
-from graphql import (
+from graphqlx import (
     EnumTypeDefinitionNode,
     EnumValueDefinitionNode,
     FieldDefinitionNode,
@@ -29,7 +29,7 @@ from graphql import (
     UnionTypeDefinitionNode,
     parse,
 )
-from graphql.language.ast import (
+from graphqlx.language.ast import (
     BooleanValueNode,
     ConstValueNode,
     ListValueNode,
@@ -38,7 +38,7 @@ from graphql.language.ast import (
 from strawberry.utils.str_converters import to_snake_case
 
 if TYPE_CHECKING:
-    from graphql.language.ast import ConstDirectiveNode
+    from graphqlx.language.ast import ConstDirectiveNode
 
 
 class HasDirectives(Protocol):

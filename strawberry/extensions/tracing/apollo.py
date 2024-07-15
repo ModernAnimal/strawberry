@@ -12,7 +12,7 @@ from strawberry.extensions.utils import get_path_from_info
 from .utils import should_skip_tracing
 
 if TYPE_CHECKING:
-    from graphql import GraphQLResolveInfo
+    from graphqlx import GraphQLResolveInfo
 
 DATETIME_FORMAT = "%Y-%m-%dT%H:%M:%S.%fZ"
 

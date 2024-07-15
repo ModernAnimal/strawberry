@@ -3,7 +3,7 @@ from __future__ import annotations
 from functools import cached_property
 from typing import TYPE_CHECKING, Optional, Set, Union
 
-from graphql import GraphQLError
+from graphqlx import GraphQLError
 
 from .conflicting_arguments import ConflictingArgumentsError
 from .duplicated_type_name import DuplicatedTypeName
@@ -22,7 +22,7 @@ from .scalar_already_registered import ScalarAlreadyRegisteredError
 from .unresolved_field_type import UnresolvedFieldTypeError
 
 if TYPE_CHECKING:
-    from graphql import GraphQLInputObjectType, GraphQLObjectType
+    from graphqlx import GraphQLInputObjectType, GraphQLObjectType
 
     from strawberry.types.base import StrawberryType
 

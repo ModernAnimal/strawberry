@@ -34,7 +34,7 @@ from strawberry.utils.inspect import get_func_args
 from .schema_directive import StrawberryFederationSchemaDirective
 
 if TYPE_CHECKING:
-    from graphql import ExecutionContext as GraphQLExecutionContext
+    from graphqlx import ExecutionContext as GraphQLExecutionContext
 
     from strawberry.extensions import SchemaExtension
     from strawberry.federation.schema_directives import ComposeDirective

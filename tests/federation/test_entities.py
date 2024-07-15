@@ -1,6 +1,6 @@
 import typing
 
-from graphql import located_error
+from graphqlx import located_error
 
 import strawberry
 from strawberry.types import Info

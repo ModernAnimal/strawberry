@@ -5,9 +5,9 @@ from typing import Any, List, Optional, Type
 from unittest.mock import patch
 
 import pytest
-from graphql import ExecutionResult as GraphQLExecutionResult
-from graphql import GraphQLError
-from graphql import execute as original_execute
+from graphqlx import ExecutionResult as GraphQLExecutionResult
+from graphqlx import GraphQLError
+from graphqlx import execute as original_execute
 
 import strawberry
 from strawberry.exceptions import StrawberryGraphQLError

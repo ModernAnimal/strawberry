@@ -60,6 +60,7 @@ class Query:
     @strawberry.field
     async def exception(self, message: str) -> str:
         raise ValueError(message)
+        return message
 
 
 @strawberry.type

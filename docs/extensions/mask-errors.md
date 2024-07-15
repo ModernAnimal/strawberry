@@ -55,7 +55,7 @@ The error message to display to the client when there is an error.
 ```python
 import strawberry
 from strawberry.extensions import MaskErrors
-from graphql.error import GraphQLError
+from graphqlx.error import GraphQLError
 
 
 class VisibleError(Exception):

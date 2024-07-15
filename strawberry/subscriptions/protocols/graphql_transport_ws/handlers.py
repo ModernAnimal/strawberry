@@ -13,7 +13,7 @@ from typing import (
     Optional,
 )
 
-from graphql import GraphQLError, GraphQLSyntaxError, parse
+from graphqlx import GraphQLError, GraphQLSyntaxError, parse
 
 from strawberry.http.exceptions import NonJsonMessageReceived, NonTextMessageReceived
 from strawberry.subscriptions.protocols.graphql_transport_ws.types import (

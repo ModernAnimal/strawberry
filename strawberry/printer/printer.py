@@ -17,9 +17,9 @@ from typing import (
     overload,
 )
 
-from graphql import is_union_type
-from graphql.language.printer import print_ast
-from graphql.type import (
+from graphqlx import is_union_type
+from graphqlx.language.printer import print_ast
+from graphqlx.type import (
     is_enum_type,
     is_input_type,
     is_interface_type,
@@ -27,7 +27,7 @@ from graphql.type import (
     is_scalar_type,
     is_specified_directive,
 )
-from graphql.utilities.print_schema import (
+from graphqlx.utilities.print_schema import (
     is_defined_type,
     print_block,
     print_deprecated,
@@ -35,7 +35,7 @@ from graphql.utilities.print_schema import (
     print_implemented_interfaces,
     print_specified_by_url,
 )
-from graphql.utilities.print_schema import print_type as original_print_type
+from graphqlx.utilities.print_schema import print_type as original_print_type
 
 from strawberry.schema_directive import Location, StrawberrySchemaDirective
 from strawberry.types.base import StrawberryContainer, has_object_definition
@@ -46,14 +46,14 @@ from strawberry.types.unset import UNSET
 from .ast_from_value import ast_from_value
 
 if TYPE_CHECKING:
-    from graphql import (
+    from graphqlx import (
         GraphQLArgument,
         GraphQLEnumType,
         GraphQLEnumValue,
         GraphQLScalarType,
         GraphQLUnionType,
     )
-    from graphql.type.directives import GraphQLDirective
+    from graphqlx.type.directives import GraphQLDirective
 
     from strawberry.schema import BaseSchema
     from strawberry.types.field import StrawberryField

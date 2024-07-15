@@ -7,7 +7,7 @@ from strawberry.types.nodes import convert_arguments
 from strawberry.utils.await_maybe import await_maybe
 
 if TYPE_CHECKING:
-    from graphql import DirectiveNode, GraphQLResolveInfo
+    from graphqlx import DirectiveNode, GraphQLResolveInfo
 
     from strawberry.directive import StrawberryDirective
     from strawberry.schema.schema import Schema

@@ -2,7 +2,7 @@ from enum import Enum, auto
 from typing import Union, cast
 from typing_extensions import Annotated
 
-from graphql import (
+from graphqlx import (
     DirectiveLocation,
     GraphQLEnumType,
     GraphQLInputType,
