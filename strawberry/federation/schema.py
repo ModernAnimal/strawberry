@@ -17,7 +17,7 @@ from typing import (
     cast,
 )
 
-from graphql import GraphQLError
+from graphqlx import GraphQLError
 
 from strawberry.annotation import StrawberryAnnotation
 from strawberry.custom_scalar import scalar
@@ -36,7 +36,7 @@ from strawberry.utils.inspect import get_func_args
 from .schema_directive import StrawberryFederationSchemaDirective
 
 if TYPE_CHECKING:
-    from graphql import ExecutionContext as GraphQLExecutionContext
+    from graphqlx import ExecutionContext as GraphQLExecutionContext
 
     from strawberry.custom_scalar import ScalarDefinition, ScalarWrapper
     from strawberry.enum import EnumDefinition

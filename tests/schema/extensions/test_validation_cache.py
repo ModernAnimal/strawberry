@@ -1,7 +1,7 @@
 from unittest.mock import patch
 
 import pytest
-from graphql import validate
+from graphqlx import validate
 
 import strawberry
 from strawberry.extensions import ValidationCache

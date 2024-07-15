@@ -3,7 +3,7 @@ from __future__ import annotations
 from typing import TYPE_CHECKING, List, Union
 
 if TYPE_CHECKING:
-    from graphql import GraphQLResolveInfo
+    from graphqlx import GraphQLResolveInfo
 
 
 def is_introspection_key(key: Union[str, int]) -> bool:

@@ -1,6 +1,6 @@
 from decimal import Decimal
 
-from graphql import GraphQLError
+from graphqlx import GraphQLError
 
 import strawberry
 

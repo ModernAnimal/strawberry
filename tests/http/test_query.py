@@ -1,7 +1,7 @@
 from typing_extensions import Literal
 
 import pytest
-from graphql import GraphQLError
+from graphqlx import GraphQLError
 from pytest_mock import MockFixture
 
 from .clients.base import HttpClient

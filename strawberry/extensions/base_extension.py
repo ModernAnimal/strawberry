@@ -6,7 +6,7 @@ from typing import TYPE_CHECKING, Any, Callable, Dict, Set
 from strawberry.utils.await_maybe import AsyncIteratorOrIterator, AwaitableOrValue
 
 if TYPE_CHECKING:
-    from graphql import GraphQLResolveInfo
+    from graphqlx import GraphQLResolveInfo
 
     from strawberry.types import ExecutionContext
 

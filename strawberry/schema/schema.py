@@ -15,7 +15,7 @@ from typing import (
     cast,
 )
 
-from graphql import (
+from graphqlx import (
     GraphQLBoolean,
     GraphQLField,
     GraphQLNamedType,
@@ -25,8 +25,8 @@ from graphql import (
     parse,
     validate_schema,
 )
-from graphql.execution import subscribe
-from graphql.type.directives import specified_directives
+from graphqlx.execution import subscribe
+from graphqlx.type.directives import specified_directives
 
 from strawberry import relay
 from strawberry.annotation import StrawberryAnnotation
@@ -48,8 +48,8 @@ from .config import StrawberryConfig
 from .execute import execute, execute_sync
 
 if TYPE_CHECKING:
-    from graphql import ExecutionContext as GraphQLExecutionContext
-    from graphql import ExecutionResult as GraphQLExecutionResult
+    from graphqlx import ExecutionContext as GraphQLExecutionContext
+    from graphqlx import ExecutionResult as GraphQLExecutionResult
 
     from strawberry.custom_scalar import ScalarDefinition, ScalarWrapper
     from strawberry.directive import StrawberryDirective

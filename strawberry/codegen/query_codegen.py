@@ -21,7 +21,7 @@ from typing import (
 from typing_extensions import Literal, Protocol
 
 import rich
-from graphql import (
+from graphqlx import (
     BooleanValueNode,
     EnumValueNode,
     FieldNode,
@@ -90,7 +90,7 @@ from .types import (
 )
 
 if TYPE_CHECKING:
-    from graphql import (
+    from graphqlx import (
         ArgumentNode,
         DirectiveNode,
         DocumentNode,

@@ -1,6 +1,6 @@
 from typing import Any
 
-from graphql import (
+from graphqlx import (
     ExecutableDefinitionNode,
     GraphQLError,
     GraphQLNamedType,

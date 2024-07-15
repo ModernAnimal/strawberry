@@ -1,4 +1,4 @@
-from graphql import OperationType, parse
+from graphqlx import OperationType, parse
 
 from strawberry.utils.operation import get_first_operation
 
